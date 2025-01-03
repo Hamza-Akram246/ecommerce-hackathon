@@ -1,6 +1,7 @@
 import { Great_Vibes } from "next/font/google";
 import Aboutus from "./AboutUs";
 import Hero from "./Hero";
+import Image from "next/image";
 
 const VibeFont = Great_Vibes({subsets:['latin'], weight:['400']})
 
@@ -20,9 +21,11 @@ export default function Testimonial() {
         </h3>
         <div className="bg-white text-black rounded-lg p-6 relative shadow-md w-full max-w-md sm:max-w-lg lg:max-w-xl mx-auto mt-10 sm:mt-20 border border-black">
           <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
-            <img
+            <Image
               src="/testi.png" // replace with actual image path
               alt="Client"
+              width={16}
+              height={16}
               className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-yellow-400"
             />
           </div>

@@ -280,12 +280,12 @@ const Menu = () => {
         {/*  Logos Section */}
 
         <div className="w-[1322px] h-[129.37px] bg-white flex justify-center mt-10">
-          <img src="/logo1.png" alt="Logo 1" width={240.96} height={129.23} className=" mx-4" />
-          <img src="/logo2.png" alt="Logo 1" width={166.04} height={128.68} className=" mx-4" />
-          <img src="/logo3.png" alt="Logo 1" width={143.98} height={127.01} className=" mx-4" />
-          <img src="/logo4.png" alt="Logo 1" width={130.98} height={129.37} className=" mx-4" />
-          <img src="/logo5.png" alt="Logo 1" width={169.97} height={129.17} className=" mx-4" />
-          <img src="/logo6.png" alt="Logo 1" width={113.98} height={129.06} className=" mx-4" />
+          <Image src="/logo1.png" alt="Logo 1" width={240.96} height={129.23} className=" mx-4" />
+          <Image src="/logo2.png" alt="Logo 1" width={166.04} height={128.68} className=" mx-4" />
+          <Image src="/logo3.png" alt="Logo 1" width={143.98} height={127.01} className=" mx-4" />
+          <Image src="/logo4.png" alt="Logo 1" width={130.98} height={129.37} className=" mx-4" />
+          <Image src="/logo5.png" alt="Logo 1" width={169.97} height={129.17} className=" mx-4" />
+          <Image src="/logo6.png" alt="Logo 1" width={113.98} height={129.06} className=" mx-4" />
           </div>
       </div>
     </div>

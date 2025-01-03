@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Navbar from "../components/Navbar";
+import Image from "next/image";
 
 const CheckoutPage = () => {
   return (
@@ -134,9 +135,11 @@ const CheckoutPage = () => {
                   className="flex items-center justify-between border-b pb-4"
                 >
                   <div className="flex items-center gap-4">
-                    <img
+                    <Image
                       src="/prons.png"
                       alt="Chicken Tikka Kabab"
+                      width={16}
+                      height={16}
                       className="w-16 h-16 object-cover rounded"
                     />
                     <div>

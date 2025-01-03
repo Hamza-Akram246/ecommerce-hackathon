@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";;
 import Link from "next/link";
+import Image from "next/image";
 
 const ShoppingCart = () => {
   return (
@@ -53,9 +54,11 @@ const ShoppingCart = () => {
             ].map((item) => (
               <tr key={item.id} className="border-t">
                 <td className="flex items-center gap-4 p-4 ">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.name}
+                    width={16}
+                    height={16}
                     className="w-16 h-16 rounded object-cover"
                   />
                   <div>

@@ -5,8 +5,6 @@ import Categories from './components/Categories';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import FromMenu from './components/FromMenu';
-import Footer from './components/Footer';
-// import Cheefs from './components/Chefs';
 import ChefGrid from './components/chefGrid';
 import Labelpic from './components/labelpic';
 import SevenHero from './components/Testimonial';

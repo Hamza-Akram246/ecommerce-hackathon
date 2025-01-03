@@ -116,7 +116,7 @@ export default function Aboutus() {
           {/* Best Chef */}
           <div className="flex flex-col items-center">
             <div className="w-[80px] h-[80px] flex justify-center items-center bg-gray-100 rounded-full">
-              <img
+              <Image
                 src="/us4.png" // Replace with your image path
                 alt="Best Chef"
                 className="w-8 h-8"
@@ -132,7 +132,7 @@ export default function Aboutus() {
           {/* 120 Item Food */}
           <div className="flex flex-col items-center">
             <div className="w-[80px] h-[80px] flex justify-center items-center bg-gray-100 rounded-full">
-              <img
+              <Image
                 src="/us5.png" // Replace with your image path
                 alt="120 Item Food"
                 className="w-8 h-8"
@@ -148,7 +148,7 @@ export default function Aboutus() {
           {/* Clean Environment */}
           <div className="flex flex-col items-center">
             <div className="w-[80px] h-[80px] flex justify-center items-center bg-gray-100 rounded-full">
-              <img
+              <Image
                 src="/us6.png" // Replace with your image path
                 alt="Clean Environment"
                 className="w-8 h-8"

@@ -44,7 +44,7 @@ export default function BlogPost() {
         <div className="lg:col-span-2 bg-white shadow-lg rounded-xl p-8">
           {/* Image */}
           <div className="relative mt-8">
-            <img
+            <Image
               src="/wings.png"
               alt="Food"
               width={872}
@@ -141,7 +141,7 @@ export default function BlogPost() {
 
         <div className="mb-6">
           <div className="flex items-start space-x-4">
-            <img src="/user1.png" alt="User" className="w-[72.11px] h-[65px] rounded-full" />
+            <Image src="/user1.png" alt="User" className="w-[72.11px] h-[65px] rounded-full" />
             <div>
               <h3 className="text-gray-800 font-bold">MD Sajib Khan</h3>
               <p className="text-sm text-gray-500">June 22, 2020</p>
@@ -158,7 +158,7 @@ export default function BlogPost() {
 
 <div className="mb-6 pl-16">
           <div className="flex items-start space-x-4">
-            <img src="/user2.png" alt="User" className="w-[65.41px] h-[65px] rounded-full" />
+            <Image src="/user2.png" alt="User" className="w-[65.41px] h-[65px] rounded-full" />
             <div>
               <h3 className="text-gray-800 font-bold">MD Moin Khan</h3>
               <p className="text-sm text-gray-500">June 22, 2020</p>
@@ -173,7 +173,7 @@ export default function BlogPost() {
         {/* Comment 3 */}
         <div className="mb-6">
           <div className="flex items-start space-x-4">
-            <img src="/user3.png" alt="User" className="w-[72.11px] h-[65px] rounded-full" />
+            <Image src="/user3.png" alt="User" className="w-[72.11px] h-[65px] rounded-full" />
             <div>
               <h3 className="text-gray-800 font-bold">MD Gulil Khan</h3>
               <p className="text-sm text-gray-500">June 22, 2020</p>
