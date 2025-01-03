@@ -30,9 +30,9 @@ export default function Testimonial() {
             />
           </div>
           <blockquote className="mt-[140px] sm:mt-[180px] text-gray-600 text-sm md:text-base px-4 sm:px-8">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             diam pellentesque bibendum non dui volutpat fringilla bibendum.
-            Lorem ipsum dolor sit amet."
+            Lorem ipsum dolor sit amet.&quot;
           </blockquote>
           <div className="flex justify-center items-center mt-4">
             <span className="text-yellow-400 text-lg sm:text-xl font-bold">

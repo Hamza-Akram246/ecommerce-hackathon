@@ -6,7 +6,7 @@ export default function BlogCard() {
         <div className="container mx-auto px-4">
             {/* Blog Card 1 */}
             <div className="w-[872px] h-[830px] ml-[300px] md:flex-row border rounded-lg shadow-lg overflow-hidden mb-6">
-                <img
+                <Image
                     src="/blogpic1.png"
                     alt="Food Blog"
                     width={871}
@@ -25,7 +25,7 @@ export default function BlogCard() {
 
             {/* Blog Card 2 */}
             <div className="w-[872px] h-[830px] ml-[300px] md:flex-row border rounded-lg shadow-lg overflow-hidden mb-6">
-                <img
+                <Image
                     src="/blogpic2.png"
                     alt="Food Blog"
                     width={871}
@@ -44,7 +44,7 @@ export default function BlogCard() {
 
             {/* Blog Card 3 */}
             <div className="w-[872px] h-[830px] ml-[300px] md:flex-row border rounded-lg shadow-lg overflow-hidden mb-6">
-                <img
+                <Image
                     src="/blogpic3.png"
                     alt="Food Blog"
                     width={871}
@@ -63,7 +63,7 @@ export default function BlogCard() {
 
             {/* Blog Card 4 */}
             <div className="w-[872px] h-[830px] ml-[300px] md:flex-row border rounded-lg shadow-lg overflow-hidden mb-6">
-                <img
+                <Image
                     src="/blogpic4.png"
                     alt="Food Blog"
                     width={871}

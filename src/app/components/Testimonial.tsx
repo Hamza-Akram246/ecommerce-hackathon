@@ -1,4 +1,5 @@
 import { Great_Vibes } from "next/font/google";
+import Image from "next/image";
 
 const VibeFont = Great_Vibes({ subsets: ["latin"], weight: ["400"] });
 
@@ -20,18 +21,20 @@ export default function Testimonial() {
         <div className="bg-white text-black rounded-lg p-6 relative shadow-md max-w-full sm:w-[500px] md:w-[600px] lg:w-[868px] mx-auto h-auto sm:h-[450px] mt-20">
           {/* Profile Image */}
           <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
-            <img
+            <Image
               src="/testi.png" // replace with actual image path
               alt="Client"
+              width={20}
+              height={20}
               className="w-20 h-20 rounded-full border-4 border-yellow-400"
             />
           </div>
 
           {/* Testimonial Text */}
           <blockquote className="mt-[100px] sm:mt-[180px] text-gray-600 text-sm sm:text-base max-w-full mx-auto sm:w-[90%] md:w-[696px] h-auto text-center">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
             diam pellentesque bibendum non dui volutpat fringilla bibendum.
-            Lorem ipsum dolor sit amet."
+            Lorem ipsum dolor sit amet.&quot;
           </blockquote>
 
           {/* Rating */}

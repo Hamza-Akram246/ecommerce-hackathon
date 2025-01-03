@@ -3,6 +3,7 @@ import { TfiFacebook } from "react-icons/tfi";
 import { RxTwitterLogo } from "react-icons/rx";
 import Hero from './Hero';
 import { Great_Vibes } from "next/font/google";
+import Image from "next/image";
 
 
 const VibeFont = Great_Vibes({subsets:['latin'], weight:['400']})
@@ -69,9 +70,11 @@ const Header = () => {
           <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0 relative">
           
             <div className="relative">
-              <img
+              <Image
                 src="/mypic.png"
                 alt="Dish"
+                width={877.8}
+                height={670}
                 className="w-[877.8px] h-[67opx] top-[198px] left-[865px]"
               />
             
